@@ -45,7 +45,6 @@ Para utilizar este repositório, siga estas instruções:
 
 Clone o repositório para o seu computador.<br>
 Acesse a pasta da aula desejada.<br>
-Abra o arquivo enunciado.md para ler a descrição do exercício.<br>
 Implemente a solução do exercício no arquivo.<br>
 
 # ©Licença:
