@@ -10,9 +10,9 @@ def calculate():
         resultado = servidor.somaisoma(int(entry1.get()), int(entry2.get()))
     elif operacao == "Subtracao":
         resultado = servidor.sobtraisub(int(entry1.get()), int(entry2.get()))
-    elif operacao == "Multiplicacao":
+    elif operacao == "Multiplicação":
         resultado = servidor.multiplicaismult(int(entry1.get()), int(entry2.get()))
-    elif operacao == "Divisao":
+    elif operacao == "Divisão":
         resultado = servidor.divideisdiv(int(entry1.get()), int(entry2.get()))
     label_result["text"] = f"Resultado: {resultado}"
 
