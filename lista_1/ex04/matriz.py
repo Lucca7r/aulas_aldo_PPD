@@ -1,18 +1,11 @@
 import numpy as np
-
-
 def calcular_transposta(matriz):
 
 
-  # Transposta da matriz usando o atributo T
   matriz_transposta = matriz.T
 
-  # Retorna a matriz transposta
   return matriz_transposta
 
-# Exemplo de uso
 matriz = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-
 matriz_transposta = calcular_transposta(matriz)
-
 print(matriz_transposta)
